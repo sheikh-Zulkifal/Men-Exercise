@@ -1,0 +1,32 @@
+input{
+  width:80% 
+}
+/* Set font and text properties for entire table */
+table {
+  font-family: Arial, sans-serif;
+  border-collapse: collapse;
+  width: 100%;
+  font-size: 14px;
+}
+
+/* Set style for table headers */
+th {
+  background-color: #555;
+  color: #fff;
+  text-align: left;
+
+}
+
+/* Set style for table rows */
+tr:nth-child(even) {
+  background-color: #f2f2f2;
+}
+
+/* Set style for table cell borders */
+td, th {
+  border: 1px solid #ddd;
+  padding: 8px;
+}
+a{
+  cursor: pointer;
+}
